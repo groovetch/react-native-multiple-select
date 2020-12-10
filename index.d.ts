@@ -33,6 +33,14 @@ export interface MultiSelectProps {
     styleSelectorContainer?: StyleProp<ViewStyle>;
     styleTextDropdown?: StyleProp<TextStyle>;
     styleTextDropdownSelected?: StyleProp<TextStyle>;
+    styleIconComponent?: {
+        searchIcon?: StyleProp<TextStyle>
+        closeIcon?: StyleProp<TextStyle>
+        dropdownIcon?: StyleProp<TextStyle>
+        checkIcon?: StyleProp<TextStyle>
+    };
+    emptySearchContainerStyle?: StyleProp<ViewStyle>;
+    emptySearchTextStyle?: StyleProp<TextStyle>;
     altFontFamily?: string;
     hideSubmitButton?: boolean;
     hideDropdown?: boolean;
